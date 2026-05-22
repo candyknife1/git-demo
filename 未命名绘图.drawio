@@ -1,85 +1,9 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="29.6.1">
-  <diagram name="第 1 页" id="0ABLj0kp5fGlXE_qKtp3">
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="cgCzKxP0lKOnhl2smFD_">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="应用入口与脚本层" vertex="1">
-          <mxGeometry height="636" width="150" as="geometry" />
-        </mxCell>
-        <mxCell id="3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="配置与运行环境层" vertex="1">
-          <mxGeometry height="636" width="150" x="200" as="geometry" />
-        </mxCell>
-        <mxCell id="4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="设备控制层" vertex="1">
-          <mxGeometry height="636" width="150" x="400" as="geometry" />
-        </mxCell>
-        <mxCell id="5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="智能体与任务编排层" vertex="1">
-          <mxGeometry height="636" width="165" x="600" as="geometry" />
-        </mxCell>
-        <mxCell id="6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="任务理解与结构化层" vertex="1">
-          <mxGeometry height="636" width="164" x="815" as="geometry" />
-        </mxCell>
-        <mxCell id="7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="上传与对接层" vertex="1">
-          <mxGeometry height="636" width="150" x="1029" as="geometry" />
-        </mxCell>
-        <mxCell id="8" edge="1" parent="1" source="2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="3" value="初始化配置与环境">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="184" y="107" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9" edge="1" parent="1" source="2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="4" value="建立设备连接">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="284" y="159" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="10" edge="1" parent="1" source="2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5" value="启动任务编排">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="387" y="211" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="11" edge="1" parent="1" source="5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="4" value="下发控制指令">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="590" y="263" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="12" edge="1" parent="1" source="5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="6" value="传递任务需求">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="798" y="315" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="13" edge="1" parent="1" source="6" style="curved=1;endArrow=block;" target="6" value="进行任务理解与结构化">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="948" y="367" />
-              <mxPoint x="948" y="397" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="14" edge="1" parent="1" source="6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="7" value="输出结构化数据">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1009" y="449" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="15" edge="1" parent="1" source="7" style="curved=1;endArrow=block;" target="7" value="执行上传与对接">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1155" y="501" />
-              <mxPoint x="1155" y="531" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
